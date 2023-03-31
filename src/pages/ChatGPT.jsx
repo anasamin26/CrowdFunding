@@ -1,8 +1,6 @@
 import { useState, useEffect, useRef } from "react";
-import { Inter } from "next/font/google";
 import axios from "axios";
 import TypingAnimation from "../components/TypingAnimations";
-const inter = Inter({ subsets: ["latin"] });
 
 export default function ChatGPT() {
   const [inputValue, setInputValue] = useState("");
