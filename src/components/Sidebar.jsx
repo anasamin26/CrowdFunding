@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { navlinks } from "../constants/constants";
-import Image from "next/image";
 const Icon = ({ styles, name, imgUrl, isActive, disabled, handleClick }) => (
   <div
     className={`w-[48px] h-[48px] rounded-[10px] ${
@@ -28,6 +27,7 @@ const Sidebar = () => {
 
   const [isActive, setIsActive] = useState("dashboard");
 
+  const [dis, setdis] = useState(true);
   return (
     <div className="flex flex-col  justify-between items-center sticky top-5 h-[93vh]">
       <Link to="/">

@@ -31,10 +31,10 @@ export const navlinks = [
     imgUrl: "/gpt.png",
     link: "/talk-to-gpt",
   },
-  {
-    name: "logout",
-    imgUrl: "/logout.png",
-    link: "/",
-    disabled: true,
-  },
+  // {
+  //   name: "logout",
+  //   imgUrl: "/logout.png",
+  //   link: "/",
+  //   disabled: true,
+  // },
 ];

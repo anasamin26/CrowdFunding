@@ -7,3 +7,4 @@ export { default as FundCard } from "./FundCard";
 export { default as Layout } from "./Layout";
 export { default as CountBox } from "./CountBox";
 export { default as Loader } from "./Loader";
+export { default as Search } from "./Search";

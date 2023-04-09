@@ -19,13 +19,11 @@ const Home = () => {
   }, [address, contract]);
 
   return (
-    <div className="relative sm:-8 p-4  min-h-screen flex flex-row bg-[#13131a]">
-      <DisplayCampaigns
-        title="All Campaigns"
-        isLoading={isLoading}
-        campaigns={campaigns}
-      />
-    </div>
+    <DisplayCampaigns
+      title="All Campaigns"
+      isLoading={isLoading}
+      campaigns={campaigns}
+    />
   );
 };
 
